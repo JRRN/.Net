@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{1FB2E6EC-A5A3-4B53-9273-9C7D223971DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Logic", "Repository.Logic\Repository.Logic.csproj", "{807F68AC-F199-43D0-9871-40006D3C99FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Model", "Repository.Model\Repository.Model.csproj", "{09F78788-6F17-4428-BF88-45AC119CDF61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FB2E6EC-A5A3-4B53-9273-9C7D223971DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB2E6EC-A5A3-4B53-9273-9C7D223971DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB2E6EC-A5A3-4B53-9273-9C7D223971DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB2E6EC-A5A3-4B53-9273-9C7D223971DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{807F68AC-F199-43D0-9871-40006D3C99FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{807F68AC-F199-43D0-9871-40006D3C99FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{807F68AC-F199-43D0-9871-40006D3C99FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{807F68AC-F199-43D0-9871-40006D3C99FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09F78788-6F17-4428-BF88-45AC119CDF61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09F78788-6F17-4428-BF88-45AC119CDF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09F78788-6F17-4428-BF88-45AC119CDF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09F78788-6F17-4428-BF88-45AC119CDF61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
