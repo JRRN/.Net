@@ -8,5 +8,9 @@ namespace Service.Logic
 {
     public class Service : IService
     {
+        public void ServiceMethod()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
