@@ -9,7 +9,7 @@ namespace Repository.Logic.Repositories
 {
     public class StudentRepository : IStudentRepository, IDisposable
     {
-        private SchoolContext context;
+        private readonly SchoolContext context;
 
         public StudentRepository(SchoolContext context)
         {

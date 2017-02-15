@@ -1,8 +1,11 @@
-﻿using System.Linq;
+﻿using System.Data.Entity;
+using System.Linq;
 
 namespace Repository.Repositories
 {
-    public interface IRepository<TEntity> where TEntity : class
+    public interface IRepository<TDbContext,TEntity> 
+        where TEntity : class
+        where TDbContext : DbContext
     {
         TEntity GetById(object id);
         IQueryable<TEntity> QueryAll();

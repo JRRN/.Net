@@ -4,7 +4,7 @@ using Repository.Repositories;
 
 namespace Repository.Logic.Repositories.Base
 {
-    public class Repository<TDbContext, TEntity> : IRepository<TEntity>
+    public class Repository<TDbContext, TEntity> : IRepository<TDbContext, TEntity>
         where TEntity : class
         where TDbContext : DbContext
     {
