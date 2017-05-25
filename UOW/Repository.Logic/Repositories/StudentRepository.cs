@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using System.Linq.Expressions;
 using Repository.Model.SchoolContext;
 using Repository.Repositories;
 
@@ -40,11 +41,17 @@ namespace Repository.Logic.Repositories
         public void UpdateStudent(Student student)
         {
             context.Entry(student).State = EntityState.Modified;
+            Save();
         }
 
         public void Save()
         {
             context.SaveChanges();
+        }
+
+        public IQueryable<Student> FindBy(Expression<Func<Student, bool>> predicate)
+        {
+            return context.Students.Where(predicate);
         }
 
         private bool disposed = false;
