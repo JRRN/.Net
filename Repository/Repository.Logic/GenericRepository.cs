@@ -41,5 +41,37 @@ namespace Repository.Logic
             _context.Entry(entity).State = EntityState.Modified;
             _context.SaveChanges();
         }
+        public bool InsertRange(IEnumerable<TEntity> collectionEntities)
+        {
+            try
+            {
+                _context.Set<TEntity>().AddRange(collectionEntities);
+                _context.SaveChanges();
+                return true;
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
+        }
+        public bool DeleteRange(IEnumerable<TEntity> collectionEntities)
+        {
+            try
+            {
+                var collectionListEntities = collectionEntities.ToList();
+
+                foreach (var collectionEntity in collectionListEntities)
+                {
+                    _context.Entry(collectionEntity).State = EntityState.Deleted;
+                }
+                _context.Set<TEntity>().RemoveRange(collectionListEntities);
+                _context.SaveChanges();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
     }
 }

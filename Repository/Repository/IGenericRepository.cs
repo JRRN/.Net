@@ -9,5 +9,7 @@ namespace Repository
         void Insert(TEntity entity);
         void Delete(TEntity entity);
         void Update(TEntity entity);
+        bool InsertRange(IEnumerable<TEntity> collectionEntities);
+        bool DeleteRange(IEnumerable<TEntity> collectionEntities);
     }
 }
