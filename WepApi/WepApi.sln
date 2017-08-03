@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WepApi", "WepApi\WepApi.csproj", "{B0A9763D-DE39-4996-9EB0-5FDEB686290E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 Services", "10 Services", "{B0BCCDDF-8E09-4F28-B7A2-532563D27624}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 Presentation", "00 Presentation", "{4E7EB5D1-367C-4A6B-8D9A-85FA3489BA97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20 Application", "20 Application", "{E19C8FDC-6408-45AA-97C9-A95083F4848D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30 Domain", "30 Domain", "{F9641739-A0B4-40C4-BD91-3E7B14457733}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "40 Repository", "40 Repository", "{465CE75B-7ECA-418A-A77C-689541B19D57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "90 Testing", "90 Testing", "{691782CB-F63A-484A-8B93-576802432E24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Integration Testing", "01 Integration Testing", "{BC339080-5263-4903-BDCD-8594A347DD64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Unit Testing", "02 Unit Testing", "{9A12974D-D8E0-48ED-A287-BC12EA15B1C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0A9763D-DE39-4996-9EB0-5FDEB686290E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A9763D-DE39-4996-9EB0-5FDEB686290E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A9763D-DE39-4996-9EB0-5FDEB686290E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A9763D-DE39-4996-9EB0-5FDEB686290E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B0A9763D-DE39-4996-9EB0-5FDEB686290E} = {B0BCCDDF-8E09-4F28-B7A2-532563D27624}
+		{BC339080-5263-4903-BDCD-8594A347DD64} = {691782CB-F63A-484A-8B93-576802432E24}
+		{9A12974D-D8E0-48ED-A287-BC12EA15B1C5} = {691782CB-F63A-484A-8B93-576802432E24}
+	EndGlobalSection
+EndGlobal
